@@ -1,24 +1,25 @@
 .mainButtons {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  width: 538px;
 
   > div {
-    padding: 5px;
+    padding: 17px;
     background-color: #232c43;
     border-radius: 10px;
     > div {
       display: flex;
       background-color: #232c43;
       button {
-        width: 76px;
+        width: calc(25%);
         background-color: #eae3dc;
         box-sizing: content-box;
         border: none;
-        margin: 18px;
+        margin: 15px;
         box-shadow: 0px 5px 0px -1px rgba(180, 165, 151, 1);
         border-radius: 10px;
         padding: 14px 13px;

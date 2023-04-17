@@ -5,7 +5,7 @@ import Theme from "./components/Theme/index";
 function App() {
   return (
     <>
-      <div>
+      <div className="mainDiv">
         <Theme />
         <CalculationScreen />
         <Buttons />

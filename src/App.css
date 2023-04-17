@@ -126,10 +126,15 @@ table {
 html,
 button {
   font-size: 32px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 700; }
 
 body {
   background-color: #3a4764; }
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 /*# sourceMappingURL=app.css.map */
