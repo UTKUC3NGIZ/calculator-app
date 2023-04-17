@@ -1,4 +1,4 @@
-import "./app.css"
+import "./app.css";
 import Buttons from "./components/Buttons/index";
 import CalculationScreen from "./components/CalculationScreen/index";
 import Theme from "./components/Theme/index";
@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <div>
-        <Theme></Theme>
-        <CalculationScreen></CalculationScreen>
-        <Buttons></Buttons>
+        <Theme />
+        <CalculationScreen />
+        <Buttons />
       </div>
     </>
   );
