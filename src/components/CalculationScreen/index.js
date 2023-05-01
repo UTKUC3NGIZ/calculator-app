@@ -1,7 +1,10 @@
+import "./style.css";
 function CalcScren() {
   return (
     <>
-      <span>399,981</span>
+      <div className="CalcScrenMain">
+        <span>399,981</span>
+      </div>
     </>
   );
 }
