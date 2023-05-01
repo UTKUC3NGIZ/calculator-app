@@ -1,11 +1,11 @@
 .mainButtons {
   display: flex;
   flex-direction: column;
-  width: 538px; }
+  width: 16.813rem; }
   .mainButtons > div {
     padding: 17px;
     background-color: #232c43;
-    border-radius: 10px; }
+    border-radius: 0.531rem; }
     .mainButtons > div > div {
       display: flex;
       background-color: #232c43; }
@@ -14,10 +14,10 @@
         background-color: #eae3dc;
         box-sizing: content-box;
         border: none;
-        margin: 15px;
+        margin: 0.469rem;
         box-shadow: 0px 5px 0px -1px #b4a597;
-        border-radius: 10px;
-        padding: 14px 13px;
+        border-radius: 0.313rem;
+        padding: 0.438rem 0.406rem;
         color: #444b5a; }
       .mainButtons > div > div:last-child button {
         width: 50%; }
@@ -28,12 +28,12 @@
   color: #ffffff !important;
   background-color: #637097 !important;
   box-shadow: 0px 5px 0px -1px #404e72 !important;
-  font-size: 26px !important; }
+  font-size: 0.813rem !important; }
 
 .functionButtonRed {
   background-color: #d03f2f !important;
   box-shadow: 0px 5px 0px -1px #93261a !important;
   color: #ffffff !important;
-  font-size: 26px !important; }
+  font-size: 0.813rem !important; }
 
 /*# sourceMappingURL=style.css.map */

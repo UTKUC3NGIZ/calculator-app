@@ -1,15 +1,15 @@
 .CalcScrenMain {
   background-color: #182034;
-  height: 127px;
-  width: 538px;
-  border-radius: 10px;
-  margin-bottom: 25px;
+  height: 3.969rem;
+  width: 16.813rem;
+  border-radius: 0.313rem;
+  margin-bottom: 0.781rem;
   display: flex;
   justify-content: flex-end;
   align-items: center; }
   .CalcScrenMain span {
     color: #EAE3DC;
     font-size: 1.8rem;
-    padding-right: 25px; }
+    padding-right: 0.781rem; }
 
 /*# sourceMappingURL=style.css.map */
