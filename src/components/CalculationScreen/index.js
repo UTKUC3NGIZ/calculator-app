@@ -1,9 +1,12 @@
 import "./style.css";
-function CalcScren() {
+function CalcScren(props) {
+
+
+
   return (
     <>
       <div className="CalcScrenMain">
-        <span>399,981</span>
+        <span>{props.input}</span>
       </div>
     </>
   );
