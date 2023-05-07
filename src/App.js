@@ -32,11 +32,23 @@ function App() {
     dispatch({ type: storedTheme });
   }, [state.theme]);
 
+  let processArray = [];
+
   if (calculate === true) {
     const regex = input.join("").match(/\d+/g);
 
-    const islem = input.join("").match(/([-+*/])/g);
+    const numbers = input.join("").match(/([-+*/])/g);
+
+    for (let i = 0; i < regex.length; i++) {
+      if (i < regex.length) {
+        processArray.push(regex[i]);
+      }
+      if (i < numbers.length) {
+        processArray.push(numbers[i]);
+      }
+    }
   }
+  let process = processArray.join("");
 
   return (
     <>
