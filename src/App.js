@@ -1,10 +1,10 @@
-import { useState, useReducer } from "react";
+import { useState, useReducer, useEffect } from "react";
 import "./app.css";
 import Buttons from "./components/Buttons/index";
 import CalculationScreen from "./components/CalculationScreen/index";
 import Theme from "./components/Theme/index";
 
-const initialState = { theme: "Theme1" };
+const initialState = { theme: localStorage.getItem("Theme") || "Theme1" };
 
 function reducer(state, action) {
   switch (action.type) {
@@ -25,6 +25,13 @@ function App() {
 
   const [calculate, setCalculate] = useState(false);
 
+  localStorage.setItem("Theme", state.theme);
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("Theme");
+    dispatch({ type: storedTheme });
+  }, [state.theme]);
+
   if (calculate === true) {
     const regex = input.join("").match(/\d+/g);
 
@@ -34,7 +41,7 @@ function App() {
   return (
     <>
       <div className="mainDiv" id={`${state.theme}`}>
-        <Theme state={state} dispatch={dispatch}/>
+        <Theme state={state} dispatch={dispatch} />
         <CalculationScreen input={input} setInput={setInput} state={state} />
         <Buttons
           input={input}

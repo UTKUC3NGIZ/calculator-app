@@ -2,6 +2,16 @@ import React from "react";
 
 import "./style.css";
 function Theme(props) {
+  function themeFunction() {
+    if (props.state.theme === "Theme1") {
+      props.dispatch({ type: "Theme2" });
+    } else if (props.state.theme === "Theme2") {
+      props.dispatch({ type: "Theme3" });
+    } else {
+      props.dispatch({ type: "Theme1" });
+    }
+  }
+
   return (
     <>
       <section className="themeMain" id={`main${props.state.theme}`}>
@@ -15,22 +25,13 @@ function Theme(props) {
             <span
               className="bar__themeAnimation"
               id={`bar${props.state.theme}`}
-              onClick={() => {
-                if (props.state.theme === "Theme1") {
-                  props.dispatch({ type: "Theme2" });
-                } else if (props.state.theme === "Theme2") {
-                  props.dispatch({ type: "Theme3" });
-                } else {
-                  props.dispatch({ type: "Theme1" });
-                }
-              }}
+              onClick={themeFunction}
             >
               <span></span>
             </span>
           </span>
         </div>
       </section>
-      {console.log(props.state.theme)}
     </>
   );
 }
