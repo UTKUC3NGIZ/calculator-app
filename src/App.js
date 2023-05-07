@@ -49,12 +49,19 @@ function App() {
     }
   }
   let process = processArray.join("");
+  let processNumber = eval(process)
 
   return (
     <>
       <div className="mainDiv" id={`${state.theme}`}>
         <Theme state={state} dispatch={dispatch} />
-        <CalculationScreen input={input} setInput={setInput} state={state} />
+        <CalculationScreen
+          input={input}
+          setInput={setInput}
+          state={state}
+          processNumber={processNumber}
+          calculate={calculate}
+        />
         <Buttons
           input={input}
           setInput={setInput}

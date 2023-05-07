@@ -12,12 +12,12 @@ function Buttons(props) {
             <button onClick={() => props.setInput([...props.input, "8"])}>
               8
             </button>
-            <button onClick={() => props.setInput([...props.input, "7"])}>
+            <button onClick={() => props.setInput([...props.input, "9"])}>
               9
             </button>
             <button
               className="functionButton"
-              onClick={() => props.setInput([...props.input, "del"])}
+              onClick={() => props.setInput([...props.input.slice(0, -1)])}
             >
               DEL
             </button>
@@ -67,7 +67,7 @@ function Buttons(props) {
           <div>
             <button
               className="functionButton"
-              onClick={() => props.setInput([...props.input, "reset"])}
+              onClick={() => props.setInput([" "])}
             >
               RESET
             </button>

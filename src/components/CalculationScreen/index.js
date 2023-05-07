@@ -3,7 +3,11 @@ function CalcScren(props) {
   return (
     <>
       <div className="CalcScrenMain" id={`CalcScrenMain${props.state.theme}`}>
-        <span>{props.input}</span>
+        {props.calculate ? (
+          <span>{props.processNumber}</span>
+        ) : (
+          <span>{props.input}</span>
+        )}
       </div>
     </>
   );
