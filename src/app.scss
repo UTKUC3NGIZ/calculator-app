@@ -134,19 +134,24 @@ button {
 
 
 
-body {
-  background-color: #3A4764;
-}
-
 .mainDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+#theme1{
+  background-color: #3a4764;
+}
+#theme2{
+
+}
+#theme3{
+
+}
+
 @media screen and (max-width: 375px) {
   html {
-    font-size: 19.5px!important;
-
+    font-size: 19.5px !important;
   }
 }

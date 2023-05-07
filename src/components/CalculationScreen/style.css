@@ -1,5 +1,4 @@
 .CalcScrenMain {
-  background-color: #182034;
   height: 3.969rem;
   width: 16.813rem;
   border-radius: 0.313rem;
@@ -8,8 +7,12 @@
   justify-content: flex-end;
   align-items: center; }
   .CalcScrenMain span {
-    color: #EAE3DC;
     font-size: 1.8rem;
     padding-right: 0.781rem; }
+
+#CalcScrenMainTheme1 {
+  background-color: #182034; }
+  #CalcScrenMainTheme1 span {
+    color: #eae3dc; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ import "./style.css";
 function Theme() {
   return (
     <>
-      <section className="themeMain">
+      <section className="themeMain" id="themeMain1">
         <div>
           <h1>calc</h1>
         </div>

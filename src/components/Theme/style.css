@@ -4,37 +4,41 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0.781rem; }
-  .themeMain div {
-    color: #eae3dc; }
-    .themeMain div:nth-child(1) h1 {
-      font-size: 1rem; }
-    .themeMain div:nth-child(2) {
+  .themeMain div:nth-child(1) h1 {
+    font-size: 1rem; }
+  .themeMain div:nth-child(2) {
+    display: flex;
+    align-items: end; }
+    .themeMain div:nth-child(2) h3 {
+      font-size: 0.4rem;
+      margin-right: 0.625rem;
+      margin-bottom: 0.281rem; }
+    .themeMain div:nth-child(2) .bar {
       display: flex;
-      align-items: end; }
-      .themeMain div:nth-child(2) h3 {
+      flex-direction: column; }
+      .themeMain div:nth-child(2) .bar__theme {
         font-size: 0.4rem;
-        margin-right: 0.625rem;
-        margin-bottom: 0.281rem; }
-      .themeMain div:nth-child(2) .bar {
-        display: flex;
-        flex-direction: column; }
-        .themeMain div:nth-child(2) .bar__theme {
-          font-size: 0.4rem;
-          letter-spacing: 0.2rem;
-          padding: 0 0.063rem; }
-        .themeMain div:nth-child(2) .bar__themeAnimation {
-          position: relative;
-          width: 100%;
-          height: 0.875rem;
-          background-color: #232c43;
-          border-radius: 1rem; }
-          .themeMain div:nth-child(2) .bar__themeAnimation span {
-            position: absolute;
-            width: 0.875rem;
-            height: 100%;
-            background-color: #d03f2f;
-            border-radius: 50%;
-            border: 3px solid #232c43;
-            box-sizing: border-box; }
+        letter-spacing: 0.2rem;
+        padding: 0 0.063rem; }
+      .themeMain div:nth-child(2) .bar__themeAnimation {
+        position: relative;
+        width: 100%;
+        height: 0.875rem;
+        border-radius: 1rem; }
+        .themeMain div:nth-child(2) .bar__themeAnimation span {
+          position: absolute;
+          width: 0.875rem;
+          height: 100%;
+          border-radius: 50%;
+          box-sizing: border-box; }
+
+#themeMain1 div {
+  color: #eae3dc; }
+  #themeMain1 div:nth-child(2) .bar__themeAnimation {
+    background-color: #232c43;
+    border-radius: 1rem; }
+    #themeMain1 div:nth-child(2) .bar__themeAnimation span {
+      background-color: #d03f2f;
+      border: 3px solid #232c43; }
 
 /*# sourceMappingURL=style.css.map */

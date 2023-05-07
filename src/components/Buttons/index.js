@@ -3,7 +3,7 @@ import "./style.css";
 function Buttons(props) {
   return (
     <>
-      <div className="mainButtons">
+      <div className="mainButtons" id="buttonTheme1">
         <div>
           <div>
             <button onClick={() => props.setInput([...props.input, "7"])}>
@@ -16,7 +16,7 @@ function Buttons(props) {
               9
             </button>
             <button
-              className="functionButtonBlue"
+              className="functionButton"
               onClick={() => props.setInput([...props.input, "del"])}
             >
               DEL
@@ -60,20 +60,20 @@ function Buttons(props) {
             <button onClick={() => props.setInput([...props.input, "/"])}>
               /
             </button>
-            <button onClick={() => props.setInput([...props.input, "x"])}>
+            <button onClick={() => props.setInput([...props.input, "*"])}>
               x
             </button>
           </div>
           <div>
             <button
-              className="functionButtonBlue"
+              className="functionButton"
               onClick={() => props.setInput([...props.input, "reset"])}
             >
               RESET
             </button>
             <button
-              className="functionButtonRed"
-              onClick={() => props.setInput([...props.input, "="])}
+              className="functionButtonResult"
+              onClick={() => props.setCalculate(true)}
             >
               =
             </button>

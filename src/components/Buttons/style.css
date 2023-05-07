@@ -4,33 +4,35 @@
   width: 16.813rem; }
   .mainButtons > div {
     padding: 17px;
-    background-color: #232c43;
     border-radius: 0.531rem; }
     .mainButtons > div > div {
-      display: flex;
-      background-color: #232c43; }
+      display: flex; }
       .mainButtons > div > div button {
         width: calc(25%);
-        background-color: #eae3dc;
         box-sizing: content-box;
         border: none;
         margin: 0.469rem;
         box-shadow: 0px 5px 0px -1px #b4a597;
         border-radius: 0.313rem;
-        padding: 0.438rem 0.406rem;
-        color: #444b5a; }
+        padding: 0.438rem 0.406rem; }
       .mainButtons > div > div:last-child button {
         width: 50%; }
     .mainButtons > div__deneme {
       display: none; }
 
-.functionButtonBlue {
+#buttonTheme1 > div {
+  background-color: #232c43; }
+  #buttonTheme1 > div > div {
+    background-color: #232c43; }
+    #buttonTheme1 > div > div button {
+      background-color: #eae3dc;
+      color: #444b5a; }
+#buttonTheme1 .functionButton {
   color: #ffffff !important;
   background-color: #637097 !important;
   box-shadow: 0px 5px 0px -1px #404e72 !important;
   font-size: 0.813rem !important; }
-
-.functionButtonRed {
+#buttonTheme1 .functionButtonResult {
   background-color: #d03f2f !important;
   box-shadow: 0px 5px 0px -1px #93261a !important;
   color: #ffffff !important;

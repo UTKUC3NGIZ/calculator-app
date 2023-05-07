@@ -1,15 +1,24 @@
-.CalcScrenMain{
-    background-color: #182034;
-    height: 3.969rem;
-    width: 16.813rem;
-    border-radius: 0.313rem;
-    margin-bottom: 0.781rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    span{
-        color: #EAE3DC;
-        font-size: 1.8rem;
-        padding-right: 0.781rem;
-    }
+.CalcScrenMain {
+  height: 3.969rem;
+  width: 16.813rem;
+  border-radius: 0.313rem;
+  margin-bottom: 0.781rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  span {
+    font-size: 1.8rem;
+    padding-right: 0.781rem;
+  }
+}
+
+#CalcScrenMainTheme1 {
+  background-color: #182034;
+  span {
+    color: #eae3dc;
+  }
+}
+#CalcScrenMainTheme2 {
+}
+#CalcScrenMainTheme3 {
 }

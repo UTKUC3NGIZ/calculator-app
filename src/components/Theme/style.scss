@@ -5,7 +5,6 @@
   align-items: center;
   margin-bottom: 0.781rem;
   div {
-    color: #eae3dc;
     &:nth-child(1) {
       h1 {
         font-size: 1rem;
@@ -31,19 +30,39 @@
           position: relative;
           width: 100%;
           height: 0.875rem;
-          background-color: #232c43;
           border-radius: 1rem;
           span {
             position: absolute;
             width: 0.875rem;
             height: 100%;
-            background-color: #d03f2f;
             border-radius: 50%;
-            border: 3px solid #232c43;
             box-sizing: border-box;
           }
         }
       }
     }
   }
+}
+
+#themeMain1 {
+  div {
+    color: #eae3dc;
+
+    &:nth-child(2) {
+      .bar {
+        &__themeAnimation {
+          background-color: #232c43;
+          border-radius: 1rem;
+          span {
+            background-color: #d03f2f;
+            border: 3px solid #232c43;
+          }
+        }
+      }
+    }
+  }
+}
+#themeMain2 {
+}
+#themeMain3 {
 }

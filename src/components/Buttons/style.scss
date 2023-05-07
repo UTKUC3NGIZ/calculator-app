@@ -9,21 +9,17 @@
 
   > div {
     padding: 17px;
-    background-color: #232c43;
     border-radius: 0.531rem;
     > div {
       display: flex;
-      background-color: #232c43;
       button {
         width: calc(25%);
-        background-color: #eae3dc;
         box-sizing: content-box;
         border: none;
         margin: 0.469rem;
         box-shadow: 0px 5px 0px -1px rgba(180, 165, 151, 1);
         border-radius: 0.313rem;
         padding: 0.438rem 0.406rem;
-        color: #444b5a;
       }
       &:last-child {
         button {
@@ -36,17 +32,33 @@
     }
   }
 }
+#buttonTheme1 {
+  > div {
+    background-color: #232c43;
 
-.functionButtonBlue {
-  color: #ffffff !important ;
-  background-color: hsl(225, 21%, 49%) !important;
-  box-shadow: 0px 5px 0px -1px hsl(224, 28%, 35%) !important;
-  font-size: 0.813rem !important;
-}
-.functionButtonRed {
-  background-color: hsl(6, 63%, 50%) !important;
-  box-shadow: 0px 5px 0px -1px hsl(6, 70%, 34%) !important;
-  color: #ffffff !important ;
-  font-size: 0.813rem !important;
-}
+    > div {
+      background-color: #232c43;
+      button {
+        background-color: #eae3dc;
+        color: #444b5a;
+      }
+    }
+  }
 
+  .functionButton {
+    color: #ffffff !important ;
+    background-color: hsl(225, 21%, 49%) !important;
+    box-shadow: 0px 5px 0px -1px hsl(224, 28%, 35%) !important;
+    font-size: 0.813rem !important;
+  }
+  .functionButtonResult {
+    background-color: hsl(6, 63%, 50%) !important;
+    box-shadow: 0px 5px 0px -1px hsl(6, 70%, 34%) !important;
+    color: #ffffff !important ;
+    font-size: 0.813rem !important;
+  }
+}
+#buttonTheme2 {
+}
+#buttonTheme3 {
+}
