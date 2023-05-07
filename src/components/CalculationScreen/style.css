@@ -8,7 +8,8 @@
   align-items: center; }
   .CalcScrenMain span {
     font-size: 1.8rem;
-    padding-right: 0.781rem; }
+    padding-right: 0.781rem;
+    overflow: hidden; }
 
 #CalcScrenMainTheme1 {
   background-color: #182034; }
@@ -16,9 +17,9 @@
     color: #eae3dc; }
 
 #CalcScrenMainTheme2 {
-  background-color: #EDEDED; }
+  background-color: #ededed; }
   #CalcScrenMainTheme2 span {
-    color: #35352C; }
+    color: #35352c; }
 
 #CalcScrenMainTheme3 {
   background-color: #1d0934; }

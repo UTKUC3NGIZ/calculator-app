@@ -49,7 +49,10 @@ function App() {
     }
   }
   let process = processArray.join("");
-  let processNumber = eval(process)
+  let processNumber = eval(process);
+
+  console.log(input);
+  console.log(calculate);
 
   return (
     <>

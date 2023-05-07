@@ -26,9 +26,6 @@
         }
       }
     }
-    &__deneme {
-      display: none;
-    }
   }
 }
 #buttonTheme1 {
@@ -41,7 +38,6 @@
         background-color: #eae3dc;
         color: #444b5a;
         box-shadow: 0px 5px 0px -1px rgba(180, 165, 151, 1);
-
       }
     }
   }
@@ -69,20 +65,19 @@
         background-color: hsl(45, 7%, 89%);
         color: hsl(60, 10%, 19%);
         box-shadow: 0px 5px 0px -1px rgba(180, 165, 151, 1);
-
       }
     }
   }
 
   .functionButton {
     color: #ffffff !important ;
-    background-color:  hsl(185, 42%, 37%)!important;
+    background-color: hsl(185, 42%, 37%) !important;
     box-shadow: 0px 5px 0px -1px hsl(185, 58%, 25%) !important;
     font-size: 0.813rem !important;
   }
   .functionButtonResult {
-    background-color: hsl(25, 98%, 40%)!important;
-    box-shadow: 0px 5px 0px -1px  hsl(25, 99%, 27%) !important;
+    background-color: hsl(25, 98%, 40%) !important;
+    box-shadow: 0px 5px 0px -1px hsl(25, 99%, 27%) !important;
     color: #ffffff !important ;
     font-size: 0.813rem !important;
   }
@@ -96,22 +91,21 @@
       button {
         background-color: hsl(268, 47%, 21%);
         color: hsl(52, 100%, 62%);
-        box-shadow: 0px 5px 0px -1px hsl(285, 91%, 52%) ;
-
+        box-shadow: 0px 5px 0px -1px hsl(285, 91%, 52%);
       }
     }
   }
 
   .functionButton {
     color: #ffffff !important ;
-    background-color:  hsl(281, 89%, 26%)!important;
+    background-color: hsl(281, 89%, 26%) !important;
     box-shadow: 0px 5px 0px -1px hsl(285, 91%, 52%) !important;
     font-size: 0.813rem !important;
   }
   .functionButtonResult {
-    background-color: hsl(176, 100%, 44%)!important;
-    box-shadow: 0px 5px 0px -1px  hsl(177, 92%, 70%) !important;
-    color: hsl(198, 20%, 13%)!important ;
+    background-color: hsl(176, 100%, 44%) !important;
+    box-shadow: 0px 5px 0px -1px hsl(177, 92%, 70%) !important;
+    color: hsl(198, 20%, 13%) !important ;
     font-size: 0.813rem !important;
   }
 }
