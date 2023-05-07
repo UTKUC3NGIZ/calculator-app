@@ -1,11 +1,8 @@
 import "./style.css";
 function CalcScren(props) {
-
-
-
   return (
     <>
-      <div className="CalcScrenMain" id="CalcScrenMainTheme1">
+      <div className="CalcScrenMain" id={`CalcScrenMain${props.state.theme}`}>
         <span>{props.input}</span>
       </div>
     </>

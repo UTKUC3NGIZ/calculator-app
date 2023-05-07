@@ -1,8 +1,8 @@
 import "./style.css";
-function Theme() {
+function Theme(props) {
   return (
     <>
-      <section className="themeMain" id="themeMain1">
+      <section className="themeMain" id={`main${props.state.theme}`}>
         <div>
           <h1>calc</h1>
         </div>

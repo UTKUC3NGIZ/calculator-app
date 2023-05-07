@@ -3,7 +3,7 @@ import "./style.css";
 function Buttons(props) {
   return (
     <>
-      <div className="mainButtons" id="buttonTheme1">
+      <div className="mainButtons" id={`button${props.state.theme}`}>
         <div>
           <div>
             <button onClick={() => props.setInput([...props.input, "7"])}>

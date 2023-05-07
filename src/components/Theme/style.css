@@ -32,12 +32,12 @@
           border-radius: 50%;
           box-sizing: border-box; }
 
-#themeMain1 div {
+#mainTheme1 div {
   color: #eae3dc; }
-  #themeMain1 div:nth-child(2) .bar__themeAnimation {
+  #mainTheme1 div:nth-child(2) .bar__themeAnimation {
     background-color: #232c43;
     border-radius: 1rem; }
-    #themeMain1 div:nth-child(2) .bar__themeAnimation span {
+    #mainTheme1 div:nth-child(2) .bar__themeAnimation span {
       background-color: #d03f2f;
       border: 3px solid #232c43; }
 
