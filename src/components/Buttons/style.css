@@ -12,7 +12,6 @@
         box-sizing: content-box;
         border: none;
         margin: 0.469rem;
-        box-shadow: 0px 5px 0px -1px #b4a597;
         border-radius: 0.313rem;
         padding: 0.438rem 0.406rem; }
       .mainButtons > div > div:last-child button {
@@ -26,7 +25,8 @@
     background-color: #232c43; }
     #buttonTheme1 > div > div button {
       background-color: #eae3dc;
-      color: #444b5a; }
+      color: #444b5a;
+      box-shadow: 0px 5px 0px -1px #b4a597; }
 #buttonTheme1 .functionButton {
   color: #ffffff !important;
   background-color: #637097 !important;
@@ -36,6 +36,44 @@
   background-color: #d03f2f !important;
   box-shadow: 0px 5px 0px -1px #93261a !important;
   color: #ffffff !important;
+  font-size: 0.813rem !important; }
+
+#buttonTheme2 > div {
+  background-color: #d1cccc; }
+  #buttonTheme2 > div > div {
+    background-color: #d1cccc; }
+    #buttonTheme2 > div > div button {
+      background-color: #e5e4e1;
+      color: #35352c;
+      box-shadow: 0px 5px 0px -1px #b4a597; }
+#buttonTheme2 .functionButton {
+  color: #ffffff !important;
+  background-color: #377f86 !important;
+  box-shadow: 0px 5px 0px -1px #1b5f65 !important;
+  font-size: 0.813rem !important; }
+#buttonTheme2 .functionButtonResult {
+  background-color: #ca5502 !important;
+  box-shadow: 0px 5px 0px -1px #893901 !important;
+  color: #ffffff !important;
+  font-size: 0.813rem !important; }
+
+#buttonTheme3 > div {
+  background-color: #1d0934; }
+  #buttonTheme3 > div > div {
+    background-color: #1d0934; }
+    #buttonTheme3 > div > div button {
+      background-color: #341c4f;
+      color: #ffe53d;
+      box-shadow: 0px 5px 0px -1px #bc15f4; }
+#buttonTheme3 .functionButton {
+  color: #ffffff !important;
+  background-color: #58077d !important;
+  box-shadow: 0px 5px 0px -1px #bc15f4 !important;
+  font-size: 0.813rem !important; }
+#buttonTheme3 .functionButtonResult {
+  background-color: #00e0d1 !important;
+  box-shadow: 0px 5px 0px -1px #6cf9f2 !important;
+  color: #1b2428 !important;
   font-size: 0.813rem !important; }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <div className="mainDiv" id={`${state.theme}`}>
-        <Theme state={state} />
+        <Theme state={state} dispatch={dispatch}/>
         <CalculationScreen input={input} setInput={setInput} state={state} />
         <Buttons
           input={input}

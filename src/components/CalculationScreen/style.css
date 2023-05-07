@@ -15,4 +15,14 @@
   #CalcScrenMainTheme1 span {
     color: #eae3dc; }
 
+#CalcScrenMainTheme2 {
+  background-color: #EDEDED; }
+  #CalcScrenMainTheme2 span {
+    color: #35352C; }
+
+#CalcScrenMainTheme3 {
+  background-color: #1d0934; }
+  #CalcScrenMainTheme3 span {
+    color: #ffe53d; }
+
 /*# sourceMappingURL=style.css.map */
