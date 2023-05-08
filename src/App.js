@@ -47,13 +47,11 @@ function App() {
         processArray.push(numbers[i]);
       }
     }
+    let process = processArray.join("");
+    let processNumber = eval(process);
+    setInput(String(processNumber));
+    setCalculate(false);
   }
-  let process = processArray.join("");
-  let processNumber = eval(process);
-
-  console.log(input);
-  console.log(calculate);
-
   return (
     <>
       <div className="mainDiv" id={`${state.theme}`}>
@@ -62,7 +60,6 @@ function App() {
           input={input}
           setInput={setInput}
           state={state}
-          processNumber={processNumber}
           calculate={calculate}
         />
         <Buttons
@@ -70,6 +67,7 @@ function App() {
           setInput={setInput}
           setCalculate={setCalculate}
           state={state}
+          calculate={calculate}
         />
       </div>
     </>

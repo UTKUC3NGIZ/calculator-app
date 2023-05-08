@@ -1,10 +1,11 @@
 import "./style.css";
 
 function Buttons(props) {
-  function Reset(){
-    props.setCalculate(false)
-    props.setInput([" "])
+  function Reset() {
+    props.setCalculate(false);
+    props.setInput([" "]);
   }
+
   return (
     <>
       <div className="mainButtons" id={`button${props.state.theme}`}>
@@ -69,10 +70,7 @@ function Buttons(props) {
             </button>
           </div>
           <div>
-            <button
-              className="functionButton"
-              onClick={Reset}
-            >
+            <button className="functionButton" onClick={Reset}>
               RESET
             </button>
             <button
