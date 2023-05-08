@@ -47,10 +47,13 @@ function App() {
         processArray.push(numbers[i]);
       }
     }
-    let process = processArray.join("");
-    let processNumber = eval(process);
-    setInput(String(processNumber));
     setCalculate(false);
+    if (processArray[processArray.length - 1] !== "+" && "-" && "/" && "*") {
+      let process = processArray.join("");
+      let processNumber = eval(process);
+      setInput(String(processNumber));
+      setCalculate(false);
+    }
   }
   return (
     <>
