@@ -26,4 +26,9 @@
   #CalcScrenMainTheme3 span {
     color: #ffe53d; }
 
+@media only screen and (max-width: 375px) {
+  .CalcScrenMain {
+    margin-bottom: 0;
+    height: 4.5rem; } }
+
 /*# sourceMappingURL=style.css.map */

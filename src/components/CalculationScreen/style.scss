@@ -31,3 +31,10 @@
     color: hsl(52, 100%, 62%);
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .CalcScrenMain {
+    margin-bottom: 0;
+    height: 4.5rem;
+  }
+}
