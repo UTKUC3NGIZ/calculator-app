@@ -1,5 +1,5 @@
 import { useState, useReducer, useEffect } from "react";
-import "./app.css";
+import "./app.css"; 
 import Buttons from "./components/Buttons/index";
 import CalculationScreen from "./components/CalculationScreen/index";
 import Theme from "./components/Theme/index";

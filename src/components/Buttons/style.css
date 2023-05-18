@@ -74,4 +74,26 @@
   color: #1b2428 !important;
   font-size: 0.813rem !important; }
 
+@media only screen and (max-width: 375px) {
+  .mainButtons {
+    width: 100%; }
+    .mainButtons > div {
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      margin: 24px; }
+      .mainButtons > div > div {
+        justify-content: space-between;
+        margin-bottom: .8rem; }
+        .mainButtons > div > div button {
+          border-radius: 0.313rem;
+          margin: 0;
+          padding: 0;
+          width: 60px;
+          height: 60px; }
+        .mainButtons > div > div:last-child {
+          margin: 0; }
+          .mainButtons > div > div:last-child button {
+            width: 48%; } }
+
 /*# sourceMappingURL=style.css.map */

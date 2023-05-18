@@ -1,10 +1,6 @@
 .mainButtons {
   display: flex;
   flex-direction: column;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
   width: 16.813rem;
 
   > div {
@@ -107,5 +103,36 @@
     box-shadow: 0px 5px 0px -1px hsl(177, 92%, 70%) !important;
     color: hsl(198, 20%, 13%) !important ;
     font-size: 0.813rem !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .mainButtons {
+    width: 100%;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+
+      padding: 24px;
+      margin: 24px;
+      > div {
+        justify-content: space-between;
+        margin-bottom: .8rem;
+        button {
+          border-radius: 0.313rem;
+          margin: 0;
+          padding: 0;
+          width: 60px;
+          height: 60px;
+        }
+        &:last-child {
+          margin: 0;
+          button {
+            width: 48%;
+          }
+        }
+      }
+    }
   }
 }
