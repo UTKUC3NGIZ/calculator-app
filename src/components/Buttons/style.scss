@@ -4,7 +4,7 @@
   width: 16.813rem;
 
   > div {
-    padding: 17px;
+    padding: 0.531rem;
     border-radius: 0.531rem;
     > div {
       display: flex;
@@ -114,8 +114,8 @@
       display: flex;
       flex-direction: column;
 
-      padding: 24px;
-      margin: 24px;
+      padding: 1.143rem;
+      margin: 1.143rem;
       > div {
         justify-content: space-between;
         margin-bottom: .8rem;
@@ -123,8 +123,8 @@
           border-radius: 0.313rem;
           margin: 0;
           padding: 0;
-          width: 60px;
-          height: 60px;
+          width: 2.857rem;
+          height: 2.857rem;
         }
         &:last-child {
           margin: 0;

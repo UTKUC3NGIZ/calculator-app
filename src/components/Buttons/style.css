@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 16.813rem; }
   .mainButtons > div {
-    padding: 17px;
+    padding: 0.531rem;
     border-radius: 0.531rem; }
     .mainButtons > div > div {
       display: flex; }
@@ -80,8 +80,8 @@
     .mainButtons > div {
       display: flex;
       flex-direction: column;
-      padding: 24px;
-      margin: 24px; }
+      padding: 1.143rem;
+      margin: 1.143rem; }
       .mainButtons > div > div {
         justify-content: space-between;
         margin-bottom: .8rem; }
@@ -89,8 +89,8 @@
           border-radius: 0.313rem;
           margin: 0;
           padding: 0;
-          width: 60px;
-          height: 60px; }
+          width: 2.857rem;
+          height: 2.857rem; }
         .mainButtons > div > div:last-child {
           margin: 0; }
           .mainButtons > div > div:last-child button {

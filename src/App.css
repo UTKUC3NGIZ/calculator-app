@@ -140,11 +140,17 @@ button {
   background-color: #3a4764; }
 
 #Theme2 {
-  background-color: #E5E4E1; }
+  background-color: #e5e4e1; }
 
 #Theme3 {
   background-color: #341c4f; }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 27px !important; } }
+@media screen and (max-width: 489px) {
+  html {
+    font-size: 21px !important; } }
 @media screen and (max-width: 375px) {
   html {
     font-size: 19.5px !important; } }
