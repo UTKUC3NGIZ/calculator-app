@@ -50,6 +50,8 @@
     #mainTheme1 div:nth-child(2) .bar__themeAnimation span {
       background-color: #d03f2f;
       border: 4px solid #232c43; }
+      #mainTheme1 div:nth-child(2) .bar__themeAnimation span:hover {
+        background-color: #de6d65; }
 
 #mainTheme2 div {
   color: #35352c; }
@@ -59,6 +61,8 @@
     #mainTheme2 div:nth-child(2) .bar__themeAnimation span {
       background-color: #ca5502;
       border: 4px solid #d1cccc; }
+      #mainTheme2 div:nth-child(2) .bar__themeAnimation span:hover {
+        background-color: #de8f49; }
 
 #mainTheme3 div {
   color: #ffe53d; }
@@ -68,6 +72,8 @@
     #mainTheme3 div:nth-child(2) .bar__themeAnimation span {
       background-color: #00e0d1;
       border: 4px solid #1d0934; }
+      #mainTheme3 div:nth-child(2) .bar__themeAnimation span:hover {
+        background-color: #bcfbf4; }
 
 @media only screen and (max-width: 375px) {
   .themeMain div:nth-child(1) h1 {

@@ -67,6 +67,9 @@
           span {
             background-color: #d03f2f;
             border: 4px solid #232c43;
+            &:hover{
+              background-color: #de6d65;
+            }
           }
         }
       }
@@ -85,6 +88,9 @@
           span {
             background-color: #ca5502;
             border: 4px solid #d1cccc;
+            &:hover{
+              background-color: #de8f49;
+            }
           }
         }
       }
@@ -103,6 +109,9 @@
           span {
             background-color: hsl(176, 100%, 44%);
             border: 4px solid hsl(268, 71%, 12%);
+            &:hover{
+              background-color: #bcfbf4;
+            }
           }
         }
       }

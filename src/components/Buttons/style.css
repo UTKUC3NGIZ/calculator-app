@@ -25,16 +25,22 @@
       background-color: #eae3dc;
       color: #444b5a;
       box-shadow: 0px 5px 0px -1px #b4a597; }
+      #buttonTheme1 > div > div button:hover {
+        background-color: #fff; }
 #buttonTheme1 .functionButton {
   color: #ffffff !important;
   background-color: #637097 !important;
   box-shadow: 0px 5px 0px -1px #404e72 !important;
   font-size: 0.813rem !important; }
+  #buttonTheme1 .functionButton:hover {
+    background-color: #a9afde !important; }
 #buttonTheme1 .functionButtonResult {
   background-color: #d03f2f !important;
   box-shadow: 0px 5px 0px -1px #93261a !important;
   color: #ffffff !important;
   font-size: 0.813rem !important; }
+  #buttonTheme1 .functionButtonResult:hover {
+    background-color: #da7262 !important; }
 
 #buttonTheme2 > div {
   background-color: #d1cccc; }
@@ -44,16 +50,22 @@
       background-color: #e5e4e1;
       color: #35352c;
       box-shadow: 0px 5px 0px -1px #b4a597; }
+      #buttonTheme2 > div > div button:hover {
+        background-color: #ffffff !important; }
 #buttonTheme2 .functionButton {
   color: #ffffff !important;
   background-color: #377f86 !important;
   box-shadow: 0px 5px 0px -1px #1b5f65 !important;
   font-size: 0.813rem !important; }
+  #buttonTheme2 .functionButton:hover {
+    background-color: #84b3bc !important; }
 #buttonTheme2 .functionButtonResult {
   background-color: #ca5502 !important;
   box-shadow: 0px 5px 0px -1px #893901 !important;
   color: #ffffff !important;
   font-size: 0.813rem !important; }
+  #buttonTheme2 .functionButtonResult:hover {
+    background-color: #e29149 !important; }
 
 #buttonTheme3 > div {
   background-color: #1d0934; }
@@ -63,16 +75,22 @@
       background-color: #341c4f;
       color: #ffe53d;
       box-shadow: 0px 5px 0px -1px #bc15f4; }
+      #buttonTheme3 > div > div button:hover {
+        background-color: #781bac; }
 #buttonTheme3 .functionButton {
   color: #ffffff !important;
   background-color: #58077d !important;
   box-shadow: 0px 5px 0px -1px #bc15f4 !important;
   font-size: 0.813rem !important; }
+  #buttonTheme3 .functionButton:hover {
+    background-color: #781bac !important; }
 #buttonTheme3 .functionButtonResult {
   background-color: #00e0d1 !important;
   box-shadow: 0px 5px 0px -1px #6cf9f2 !important;
   color: #1b2428 !important;
   font-size: 0.813rem !important; }
+  #buttonTheme3 .functionButtonResult:hover {
+    background-color: #befef8 !important; }
 
 @media only screen and (max-width: 375px) {
   .mainButtons {
@@ -84,7 +102,7 @@
       margin: 1.143rem; }
       .mainButtons > div > div {
         justify-content: space-between;
-        margin-bottom: .8rem; }
+        margin-bottom: 0.8rem; }
         .mainButtons > div > div button {
           border-radius: 0.313rem;
           margin: 0;
