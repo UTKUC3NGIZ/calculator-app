@@ -66,7 +66,7 @@
           border-radius: 1rem;
           span {
             background-color: #d03f2f;
-            border: 3px solid #232c43;
+            border: 4px solid #232c43;
           }
         }
       }
@@ -84,7 +84,7 @@
           border-radius: 1rem;
           span {
             background-color: #ca5502;
-            border: 3px solid #d1cccc;
+            border: 4px solid #d1cccc;
           }
         }
       }
@@ -102,7 +102,40 @@
           border-radius: 1rem;
           span {
             background-color: hsl(176, 100%, 44%);
-            border: 3px solid hsl(268, 71%, 12%);
+            border: 4px solid hsl(268, 71%, 12%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .themeMain {
+    div {
+      &:nth-child(1) {
+        h1 {
+          font-size: 1.48rem;
+        }
+      }
+      &:nth-child(2) {
+        h3 {
+          font-size: 0.62rem;
+          margin-right: 1.5rem;
+        }
+        .bar {
+          text-align: center;
+
+          &__theme {
+            font-size: 0.62rem;
+          }
+          &__themeAnimation {
+            height: 1.2rem;
+            width: 62px;
+            span {
+              width: 1.2rem;
+              height: 100%;
+            }
           }
         }
       }
