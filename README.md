@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[calculator-app-utkuc3ngiz.vercel.app](calculator-app-utkuc3ngiz.vercel.app)
+https://calculator-app-utkuc3ngiz.vercel.app/
 
 <h2>Project Screenshots:</h2>
 
