@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Calculator App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/UTKUC3NGIZ/calculator-app/image?font=KoHo&amp;language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FUTKUC3NGIZ%2Futkuc3ngiz.github.io%2F01b10a4ad7332f29e4cf1da7b313b22f813be823%2Fassets%2Fimages%2FC3.svg&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">React ile 3 farklı temaya sahip 4 işlem yapan bir hesap makinası yaptım.</p>
 
-In the project directory, you can run:
+<h2>🚀 Demo</h2>
 
-### `npm start`
+[calculator-app-utkuc3ngiz.vercel.app](calculator-app-utkuc3ngiz.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Project Screenshots:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20008%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot">
 
-### `npm test`
+<img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20009%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20010%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+  <div align="center">
+  
+<img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20013%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot" width="298" height="400/">
+  <img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20011%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot" width="298" height="400/">
 
-### `npm run eject`
+<img src="https://raw.githubusercontent.com/UTKUC3NGIZ/calculator-app/main/img/FireShot%20Capture%20012%20-%20React%20App%20-%20calculator-lajkohha1-utkuc3ngiz.vercel.app.png" alt="project-screenshot" width="298" height="400/">
+</div>
+<h2>💻 Built with</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies used in the project:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   React
+*   Scss
